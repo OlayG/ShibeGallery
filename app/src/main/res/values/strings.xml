@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ShibeGallery</string>
+    <string name="dynamic_title">Showing %d %s</string>
+    <string name="dynamic_count">Count: %d</string>
+    <string name="endpoint">Endpoint</string>
+</resources>

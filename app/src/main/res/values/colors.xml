@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#8a8a8e</color>
+    <color name="blue_light">#157efb</color>
+    <color name="blue_dark">#1b87fa</color>
+
+    <!-- LIGHT MODE -->
+    <color name="background_light">@android:color/white</color> <!--Color background (light)-->
+    <color name="primary_light">@android:color/white</color> <!--Color primary (light)-->
+    <color name="primary_variant_light">@android:color/white</color> <!--Color primary variant (light)-->
+    <color name="secondary_light">@color/blue_light</color> <!--Color secondary (light)-->
+    <color name="secondary_variant_light">@color/blue_light</color> <!--Color secondary variant (light)-->
+    <color name="color_error_light">@android:color/holo_red_light</color> <!--Color error (light)-->
+    <color name="surface_light">#f8f8f7</color> <!--Color surface (light)-->
+    <color name="color_on_primary_light">@android:color/black</color> <!--Color on primary (light)-->
+    <color name="color_on_secondary_light">@android:color/white</color> <!--Color on secondary (light)-->
+    <color name="color_on_background_light">@android:color/black</color> <!--Color on background (light)-->
+    <color name="color_on_surface_light">@android:color/black</color> <!--Color on surface (light)-->
+    <color name="color_on_error_light">@android:color/white</color> <!--Color on error (light)-->
+
+    <!-- DARK MODE -->
+    <color name="background_dark">@android:color/black</color> <!--Color background (dark)-->
+    <color name="primary_dark">@android:color/black</color> <!--Color primary (dark)-->
+    <color name="primary_variant_dark">@android:color/black</color> <!--Color primary variant (dark)-->
+    <color name="secondary_dark">@color/blue_dark</color> <!--Color secondary (dark)-->
+    <color name="secondary_variant_dark">@color/blue_dark</color> <!--Color secondary variant (dark)-->
+    <color name="color_error_dark">@android:color/holo_red_dark</color> <!--Color error (dark)-->
+    <color name="surface_dark">#1a1a1a</color> <!--Color surface (dark)-->
+    <color name="color_on_primary_dark">@android:color/black</color> <!--Color on primary (dark)-->
+    <color name="color_on_secondary_dark">@android:color/black</color> <!--Color on secondary (dark)-->
+    <color name="color_on_background_dark">@android:color/black</color> <!--Color on background (dark)-->
+    <color name="color_on_surface_dark">@android:color/white</color> <!--Color on surface (dark)-->
+    <color name="color_on_error_dark">@android:color/black</color> <!--Color on error (dark)-->
+</resources>

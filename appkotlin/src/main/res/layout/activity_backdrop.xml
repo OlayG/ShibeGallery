@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dropdown_container"
+        style="@style/Widget.App.TextInputLayout"
+        android:hint="@string/endpoint"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/filled_exposed_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:labelFor="@id/dropdown_container"
+            android:textColor="?colorOnSecondary"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/slider_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceHeadline5"
+        android:textColor="?colorOnSecondary"
+        app:layout_constraintTop_toBottomOf="@id/dropdown_container" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/range_slider"
+        style="@style/Widget.MyApp.Slider"
+        app:layout_constraintTop_toBottomOf="@id/slider_label" />
+</merge>

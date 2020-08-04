@@ -22,7 +22,7 @@ public class ShibeAdapter extends RecyclerView.Adapter<ShibeAdapter.ShibeViewHol
         this(null);
     }
 
-    public ShibeAdapter(@Nullable  OnImageClickedListener listener) {
+    public ShibeAdapter(@Nullable OnImageClickedListener listener) {
         this.urls = new ArrayList<>();
         this.listener = listener;
     }
@@ -80,7 +80,7 @@ public class ShibeAdapter extends RecyclerView.Adapter<ShibeAdapter.ShibeViewHol
         }
     }
 
-     public interface OnImageClickedListener {
+    public interface OnImageClickedListener {
         public void imageSelected(String url);
     }
 }

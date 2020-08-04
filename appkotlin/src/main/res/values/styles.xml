@@ -1,0 +1,72 @@
+<resources>
+
+    <style name="Widget.MyApp.Backdrop" parent="">
+        <item name="android:background">?colorSecondary</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">88dp</item>
+    </style>
+
+    <style name="Widget.MyApp.Backdrop.Empty">
+        <item name="android:textAppearance">?textAppearanceHeadline4</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:layout_marginTop">56dp</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+    </style>
+
+    <style name="Widget.MyApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?colorSecondary</item>
+        <item name="titleTextColor">?colorOnSecondary</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="iconTint">?colorOnSecondary</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:theme">@style/Theme.MyApp</item>
+        <item name="popupTheme">@style/ThemeOverlay.MaterialComponents.Light</item>
+        <item name="titleTextAppearance">?textAppearanceSubtitle2</item>
+    </style>
+
+    <style name="Widget.MyApp.SheetBackground" parent="ThemeOverlay.MaterialComponents">
+        <item name="background">?shapeAppearanceLargeComponent</item>
+        <item name="backgroundTint">@color/gray</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
+        <item name="hintTextColor">?colorOnSecondary</item>
+        <item name="boxBackgroundColor">?colorSecondary</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+        <item name="android:textColorHint">?colorOnSecondary</item>
+        <item name="boxStrokeColor">?colorOnSecondary</item>
+        <item name="endIconTint">?colorOnSecondary</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.MyApp.Slider" parent="Widget.MaterialComponents.Slider">
+        <item name="labelStyle">@style/Widget.MyApp.Tooltip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:stepSize">10</item>
+        <item name="android:valueFrom">0</item>
+        <item name="android:valueTo">100</item>
+    </style>
+
+    <style name="Widget.MyApp.Tooltip" parent="Widget.MaterialComponents.Tooltip">
+        <item name="android:textAppearance">@style/TextAppearance.MyApp.Tooltip</item>
+        <item name="backgroundTint">?android:colorBackground</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Tooltip" parent="TextAppearance.MaterialComponents.Tooltip">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+</resources>

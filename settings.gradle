@@ -1,2 +1,3 @@
+include ':appkotlin'
 include ':app'
 rootProject.name = "ShibeGallery"
